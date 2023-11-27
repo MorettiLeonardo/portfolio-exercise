@@ -10,13 +10,19 @@ export const ThemeButton = styled.button`
   font-size: 10px;
   font-weight: bold;
   padding: 8px;
+  border: none;
   border-radius: 12px;
-  background-color: #282a35;
-  color: #eee;
+  background-color: ${(props) => props.theme.mainColor};
+  color: ${(props) => props.theme.backgroundColor};
   cursor: pointer;
 `
 export const SidebarContainer = styled.div`
   position: sticky;
   top: 80px;
   left: 0;
+
+  @media (max-width: 768px) {
+    margin-bottom: 40px;
+    text-align: center;
+  }
 `
