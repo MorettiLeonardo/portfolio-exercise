@@ -1,13 +1,23 @@
-import Paragraph from '../Paragraph'
+// import Paragraph from '../Paragraph'
 import Title from '../Title'
 
 import { Card, ButtonLink } from './styles'
 
-const Project = () => (
+type Props = {
+  title: string
+  // paragraph: string
+  button: string
+}
+
+const Project = ({ title, button }: Props) => (
   <Card>
-    <Title>Nome do projeto</Title>
-    <Paragraph type="secondary">Descricao do projeto</Paragraph>
-    <ButtonLink>Visualizar</ButtonLink>
+    <Title>{title}</Title>
+    {/* <Paragraph type="secondary">{paragraph}</Paragraph> */}
+    <ButtonLink>
+      <a href={button} target="_blank" rel="noreferrer">
+        Visualizar
+      </a>
+    </ButtonLink>
   </Card>
 )
 

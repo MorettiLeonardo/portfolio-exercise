@@ -6,10 +6,10 @@ const About = () => (
   <section>
     <Title fontSize={16}>Sobre</Title>
     <Paragraph type="main">
-      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum architecto
-      reprehenderit amet dicta recusandae? Quo quibusdam aperiam fuga,
-      voluptates similique sapiente quae officiis! Perferendis eum ad
-      blanditiis, sunt soluta a?
+      Olá, eu sou o Leonardo, programador front-end Tenho interesse pelas áreas
+      de UX, front-end, ecossistema JavaScript. Atualmente estou atuando na área
+      de freelancer, cursando Análise e Desenvolvimento de Sistemas na PUCPR,
+      Curso OneBitCode FullStack JavaScript e Engenheiro Front-End na EBAC.
     </Paragraph>
     <SectionGithub>
       <img src="https://github-readme-stats.vercel.app/api?username=MorettiLeonardo&show_icons=true&theme=dracula&include_all_commits=true&count_private=true" />
